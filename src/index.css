@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 canvas {
   width:100%;
   height:100%;
   overflow:hidden;
   position: relative;
+  cursor: none;
 }
 
 html, body {
@@ -16,7 +19,39 @@ html, body {
   left: 50%;
   position: fixed;
   transform: translate(-50%,-50%);
+  pointer-events: bounding-box;
+  padding: 0;
 }
+
 div#buttonsBar{
   background-color: white;
+}
+
+text#title{
+  -webkit-text-stroke: thin;
+  -webkit-text-stroke-color: white;
+  filter: invert(1);
+  display: block;
+  margin: 0;
+  left: 50%;
+  position: fixed;
+  top: 5%;
+  font-size: -webkit-xxx-large;
+  transform: translateX(-50%);
+  font-family: 'Lacquer', sans-serif;
+  pointer-events: none;
+}
+
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+}
+
+button:hover{
+  filter: invert(1);
 }

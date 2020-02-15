@@ -24,7 +24,7 @@ function squareFunction(e, canvas) {
   ctx.globalCompositeOperation = 'xor';
   array.push({x:e.clientX,y:e.clientY})
 
-  if (array.length > 500) {
+  if (array.length > 100) {
     array.shift()
   }
 
@@ -44,13 +44,12 @@ function circleSquare(e, canvas) {
 
   function resetSquare() {
     array[0]={
-      x: Math.floor(Math.random() * window.innerWidth) + 10,
-      y: Math.floor(Math.random() * window.innerHeight) + 10
+      x: Math.floor(Math.random() * window.innerWidth-10) + 10,
+      y: Math.floor(Math.random() * window.innerHeight-10) + 10
     }
 
     array[2]=array[2]?array[2]+1:1
 
-    console.log(array[2])
   }
 
   if (array.length === 0){
