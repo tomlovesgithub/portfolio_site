@@ -85,5 +85,4 @@ module.exports = [
   circleFunction,
   squareFunction,
   circleSquare,
-  // blockPage
 ];

@@ -11,44 +11,36 @@ class ButtonBar extends React.Component {
   }
 
   toggleActive = (target) => {
-    if (this.state.active === target) {
-      this.setState({
-        active: false
-      })
-    } else {
-      this.setState({
-        active: target
-      })
-    }
+    let targeted = this.refs[target.title];
+    let notTargetted = Object.keys(this.refs).filter(ref => ref !== target.title)
+
+    notTargetted.forEach((element, i) => {
+      this.refs[element].classList.toggle('hide')
+    });
+    targeted.childNodes[1].classList.toggle('showP')
   }
 
   formatButton(page){
-    return (<button
+    return (<div
+      className='pageItem'
       key={page.title}
+      ref={page.title}
+      ><button
       onClick={()=>this.toggleActive(page)}
-      >
-      {page.title}
-      </button>)
+      >{page.title}
+      </button>
+      <p>{page.info}</p>
+      </div>)
     }
 
     render(){
-      if (!this.state.active) {
-        return (
-          <ul id='buttonsBar'>
-          {Pages.map(page=>{
-            return this.formatButton(page)
-          })}
-          </ul>
-        );
-      } else {
-        return (<div id='buttonsBar'>
-          <button
-          onClick={()=>this.toggleActive(this.state.active)}
-          >back</button>
-          {this.state.active.title}
-          <p>{this.state.active.info}</p>
-          </div>)
-        }
-      }
+      return (
+        <div
+        id='pageElems'
+        >
+        {Pages.map(page=>{
+          return this.formatButton(page)
+        })}</div>
+      )}
     }
     export default ButtonBar;

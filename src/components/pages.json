@@ -1,13 +1,13 @@
 [
   {
     "title": "Makers Academy",
-    "info": "Blah blah Makers",
+    "info": "Highly selective immersive 16 week coding bootcamp.\nLearnt TDD in Ruby and JavaScript, built projects using web frameworks and HTML/CSS, incorporated databasing with SQL and generally got a feel for object-oriented programming, TDD/BDD, XP values and Agile development",
     "link": "http://google.com"
   },
   {
-    "title": "Palava doj dia",
-    "info": "reeooso reeooso reeooso reeooso reeooso reeooso reeooso reeooso ",
-    "link": "http://google.com"
+    "title": "Palavra Do Dia",
+    "info": "Portuguese word of the day app to challenge and aid those learning the language",
+    "link": "PALAVRA DO DIA"
   },
   {
     "title": "Canvas Experiments",
