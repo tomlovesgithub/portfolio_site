@@ -29,12 +29,13 @@ class CanvasBackground extends React.Component {
 
   render(){
     return (
+      <div id='canvasWrapper'>
       <canvas
       ref='canvasRef'
-      style={{border:'1px solid black'}}
       onMouseMove={(e)=>this.currentGame(e, this.refs.canvasRef)}
       >
       </canvas>
+      </div>
     );
   }
 }

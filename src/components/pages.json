@@ -1,27 +1,32 @@
 [
   {
     "title": "Makers Academy",
-    "info": "Highly selective immersive 16 week coding bootcamp.\nLearnt TDD in Ruby and JavaScript, built projects using web frameworks and HTML/CSS, incorporated databasing with SQL and generally got a feel for object-oriented programming, TDD/BDD, XP values and Agile development",
-    "link": "http://google.com"
+    "info": "My programming journey began with a 16 week intensive bootcamp based in london, here I had my first experiences programming. Using test-driven development, I learned to create fullstack applications with Ruby, Javascript encorperating SQL database and gained a practical and foundational understanding of programming concepts.",
+    "link": "https://makers.tech/"
   },
   {
     "title": "Palavra Do Dia",
-    "info": "Portuguese word of the day app to challenge and aid those learning the language",
-    "link": "PALAVRA DO DIA"
+    "info": "A Portuguese 'word of the day' to aid those learning the language. I built the frontend in angular and deployed it on github pages, still searching for a decent Portuguese > English dictionary API to finish off the project. This project was a great insight into the differences and similarities between frontend frameworks, and a chance to work in Typescript.",
+    "link": "https://tomlovesgithub.github.io/PalavraDoDia/"
   },
   {
     "title": "Canvas Experiments",
-    "info": "three three three three three three three three three three three three three three",
-    "link": "http://google.com"
+    "info": "Wanting a break from constantly challenging myself to learn new things, I turned to the beloved canvas element to create simple generative art and interaction pieces which could exist online. I've included some in the pageground of this page and want to collate these all somewhere sooner or later. I've found with these projects having such an abstracted task to fulfill as a programmer, eloquent solutions can be found, principles like object oriented design can be tested and explored, and the code is often not the challenge. I've found myself revisiting areas of graphing math and exploring things basic machine learning with a fun and visual factor. Find a few of these linked below, or on my Github",
+    "link": "http://canvas-experiments.surge.sh"
   },
   {
     "title": "Veejo React",
-    "info": "fourrr four rrfour rrfo urrrfourr fourr rfou rrr",
-    "link": "http://google.com"
+    "info": "After failing recieving a particularly challenging tech test, I endeavored to learn more about the HTML video element and using it in frontend frameworks. I've tested and deployed a customised video player and programmed its functionality. This was a massive leap in react for me, and im proud with the result as it made me curious about and led me to learning alot more about how Javascript works. Watch this space. I plan to update this project soon.",
+    "link": "https://tomlovesgithub.github.io/veejo_react/"
   },
   {
     "title": "Medium tutorial",
-    "info": "fourrr four rrfour rrfo urrrfourr fourr rfou rrr",
-    "link": "http://google.com"
+    "info": "Frustrated with a sparse or outdated materials for learning to TDD a simple fullstack Mongo Express Node React app; I mangled together what had worked best for me and wrote a granular walkthrough of a react app. Taking novices from a command line based node app to a fullstack app using a locally hosted Mongo database, following TDD principles, and explaning concepts to the best of my knowledge. In doing this all, I learnt alot and became alot more confident with fullstack Node, and vanilla Js",
+    "link": "https://medium.com/p/af356bf0badb/"
+  },
+  {
+    "title": "..More to come",
+    "info": "I'm always working on and learning to build new stuff. I intend to keep this site updated with that which is closest to being finished. Follow me on Github to find out what im working on currently, or connect via Linkedin",
+    "link": "https://github.com/tomlovesgithub/"
   }
 ]

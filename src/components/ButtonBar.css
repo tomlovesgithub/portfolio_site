@@ -1,0 +1,47 @@
+button{
+  pointer-events: fill;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  outline: none;
+  transition: 1.5s all;
+}
+
+button:hover{
+  filter: invert(1);
+}
+
+.showP{
+  visibility: visible;
+  display: block;
+  transition: 1.5s all;
+  background-color: white;
+  align-items: center;
+  height: 100%;
+}
+
+p{
+  transition: 1.5s all;
+  visibility: collapse;
+  display: none;
+  pointer-events: none;
+  margin: 0;
+}
+
+.hide{
+  visibility: collapse;
+  display: none;
+}
+
+.pageMode{
+  position: fixed;
+  top: 0%;
+}
+
+a{
+  pointer-events: all;
+}

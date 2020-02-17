@@ -24,9 +24,9 @@ class App extends React.Component {
       // }
       return (
         <div>
-        <CanvasBackground/>
         <Title/>
         <ButtonBar/>
+        <CanvasBackground/>
         </div>
       )
     }

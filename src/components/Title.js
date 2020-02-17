@@ -3,8 +3,9 @@ import React from 'react';
 class Title extends React.Component {
   render(){
     return (
-      <div>
-      <h1 id='title'>Tom Russell Portfolio</h1>
+      <div
+      id='title'>
+      <h1 id='titleText'>Tom Russell Portfolio</h1>
       </div>
     );
   }

@@ -72,7 +72,7 @@ function circleSquare(e, canvas) {
   ctx.beginPath();
   ctx.fillStyle='black'
   ctx.arc(e.clientX, e.clientY, 50, 0, 360);
-  ctx.fill();
+  ctx.stroke();
   ctx.closePath()
   ctx.beginPath();
   ctx.fillStyle='red'
